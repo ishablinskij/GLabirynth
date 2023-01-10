@@ -1,0 +1,14 @@
+name: GLabirynth
+version: '3.0'
+main: glabirynth.glabirynth.GLabirynth
+api-version: 1.17
+authors: [ _gvinder ]
+commands:
+  labyrinth:
+    description: запускает лабиринт
+    permission: op
+    permission-message: Нихарашо! У тебя нет прав
+    aliases:
+      - lab
+    usage:
+      /<command> start
